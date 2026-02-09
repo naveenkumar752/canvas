@@ -104,7 +104,6 @@ const HeroPage = () => {
 {`const `}<span className="text-primary">naveenkumar</span>{` = {
   `}<span className="text-foreground">role</span>{`: `}<span className="text-green-400">"Software Engineer"</span>{`,
   `}<span className="text-foreground">skills</span>{`: [`}
-    <span className="text-green-400">"Ruby on Rails"</span>{`,`}
     <span className="text-green-400">"React.js"</span>{`,`}
     <span className="text-green-400">"Node.js"</span>{`,`}
     <span className="text-green-400">"TypeScript"</span>{`,`}
@@ -144,4 +143,5 @@ const HeroPage = () => {
 };
 
 export default HeroPage;
+
 
