@@ -43,7 +43,7 @@ const HeroPage = () => {
               className="mt-6 text-xl text-muted-foreground font-light max-w-lg"
             >
               Software Engineer building scalable web applications with
-              <span className="text-foreground font-medium"> Ruby on Rails</span>,
+              <span className="text-foreground font-medium"> ROR</span>,
               <span className="text-foreground font-medium"> React.js</span>, and
               <span className="text-foreground font-medium"> AWS</span>.
             </motion.p>
@@ -80,7 +80,7 @@ const HeroPage = () => {
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500" />
               </span>
               <span className="text-sm text-muted-foreground">
-                Currently building at <span className="text-foreground">Jothi Software Pvt Ltd</span>
+                Currently building at <span className="text-foreground">JSPVTLTD</span>
               </span>
             </motion.div>
           </div>
@@ -103,7 +103,6 @@ const HeroPage = () => {
                 <code>
 {`const `}<span className="text-primary">naveenkumar</span>{` = {
   `}<span className="text-foreground">role</span>{`: `}<span className="text-green-400">"Software Engineer"</span>{`,
-  `}<span className="text-foreground">company</span>{`: `}<span className="text-green-400">"Jothi Software"</span>{`,
   `}<span className="text-foreground">skills</span>{`: [`}
     <span className="text-green-400">"Ruby on Rails"</span>{`,`}
     <span className="text-green-400">"React.js"</span>{`,`}
@@ -145,3 +144,4 @@ const HeroPage = () => {
 };
 
 export default HeroPage;
+
